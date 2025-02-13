@@ -5,7 +5,7 @@ export default function SelectedProject({
   onDelete,
   onAddTask,
   onDeleteTask,
-  tasks
+  tasks,
 }) {
   const projectDate = new Date(project.dueDate).toLocaleDateString("en-US", {
     year: "numeric",
@@ -21,7 +21,7 @@ export default function SelectedProject({
           </h1>
           <button
             className="text-stone-600 hover:text-stone-950"
-            onClick={()=>onDelete(project.id)}
+            onClick={() => onDelete(project.id)}
           >
             Delete
           </button>
