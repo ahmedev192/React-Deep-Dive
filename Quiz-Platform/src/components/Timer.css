@@ -1,0 +1,22 @@
+.timer-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.timer-progress {
+  height: 100%;
+  background-color: blue;
+  width: 100%;
+}
+
+@keyframes progress {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
