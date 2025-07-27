@@ -30,7 +30,7 @@ This repository is a collection of React mini-projects and demos created to expl
 To run any project locally:
 
 ```bash
-git clone https://github.com/your-username/React-Deep-Dive.git
+git clone https://github.com/ahmedev192/React-Deep-Dive.git
 cd React-Deep-Dive/Folder-Name
 npm install
 npm run dev
